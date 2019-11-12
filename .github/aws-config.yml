@@ -16,13 +16,13 @@
 # AWS S3 Bucket for package and deploy #
 ########################################
 # NOTE: This bucket must exist before the GitHub Action, and match the name of your S3 bucket on Amazon
-s3_bucket: github-sam-test
+s3_bucket: mygithubuniversebucket
 
 ##################################
 # AWS Cloud Formation Stack name #
 ##################################
 # NOTE: Defaults to "mystack" if left empty
-aws_stack_name: mystack
+aws_stack_name: qmixi-universe-2019
 
 ####################
 # AWS SAM Template #
